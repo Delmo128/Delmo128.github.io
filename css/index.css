@@ -422,6 +422,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -525,8 +529,16 @@ video {
   margin-right: 2rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -547,6 +559,10 @@ video {
 
 .w-8\/12 {
   width: 66.666667%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-auto {
@@ -589,12 +605,7 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(173 149 107 / var(--tw-bg-opacity));
-}
-
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 211 220 / var(--tw-bg-opacity));
+  background-color: rgb(0 53 63 / var(--tw-bg-opacity));
 }
 
 .p-0 {
@@ -603,10 +614,6 @@ video {
 
 .p-2 {
   padding: 0.5rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-4 {
@@ -632,6 +639,14 @@ video {
   text-align: center;
 }
 
+.font-cufonfonts {
+  font-family: cufonfonts;
+}
+
+.font-titles {
+  font-family: Alkatra, cursive;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -652,8 +667,17 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .text-gray-500 {
@@ -664,4 +688,40 @@ video {
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(212 211 220 / var(--tw-text-opacity));
+}
+
+.text-txt {
+  --tw-text-opacity: 1;
+  color: rgb(147 149 151 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+@font-face {
+  font-family: cufonfonts;
+
+  font-weight: medium;
+
+  src: url("./../assets/fonts/sf-compact-display-cufonfonts/sf-compact-display-medium-5864711817c30.otf") format("opentype"),
+}
+
+@font-face {
+  font-family: pro-cufonfonts;
+
+  font-weight: lighter;
+
+  font-style: italic;
+
+  src: url("./../assets/fonts/sf-pro-display-cufonfonts/SFPRODISPLAYLIGHTITALIC.OTF") format("opentype"),
 }

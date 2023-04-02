@@ -4,9 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#AD956B',
-        'secondary': '#D4D3DC'
+        'primary': '#00353F',
+        'secondary': '#D4D3DC',
+        'txt': '#939597'
       },
+      fontFamily: {
+        'titles': ['Alkatra', 'cursive'],
+        'pro-cufonfonts': ['pro-cufonfonts'],
+        'cufonfonts': ['cufonfonts']
+      }
     },
   },
   plugins: [],
